@@ -10,11 +10,10 @@ const HeaderMain = () => {
     <main className="row d-flex align-items-center" style={{ height: "600px" }}>
       <div className="col-md-4 col-sm-6 col-12 offset-md-1">
         <h1 style={{ color: "#3A4256" }}>
-          Your New Smile <br /> Starts Here
+          Book Your Appointment <br /> Today
         </h1>
         <p className="text-secondary">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos,
-          sunt enim fuga deserunt recusandae facilis.
+          
         </p>
         <button onClick={handleAppointment} className="btn btn-success">
           GET APPOINMENT

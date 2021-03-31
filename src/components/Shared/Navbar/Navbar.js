@@ -1,7 +1,7 @@
 import React, { useContext } from "react";
 import { Link, NavLink, useHistory } from "react-router-dom";
 import { UserContext } from "../../../App";
-import logo from "../../../images/fluride.png"
+import logo from "../../../images/pluspro.png"
 const Navbar = () => {
   const [loggedInUser,setLoggedInUser]=useContext(UserContext);
 const history = useHistory();
@@ -9,7 +9,7 @@ const history = useHistory();
   return (
     <nav className="navbar navbar-expand-lg navbar-light">
       <a className="navbar-brand" href="">
-  <img onClick={()=> history.push('/')} src={logo} alt="" className="img-fluid ml-5 py-2" width="50px"/> <p>{loggedInUser.name}</p>
+  <img onClick={()=> history.push('/')} src={logo} alt="" className="img-fluid ml-5 py-2" width="60px"/> <p>{loggedInUser.name}</p>
       </a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>

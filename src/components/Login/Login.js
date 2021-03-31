@@ -54,6 +54,10 @@ const Login = () => {
     <div className="login-page container">
       <div className="row align-items-center" style={{height:"100vh"}}>
         <div className="col-md-6 shadow p-5">
+        <h1 style={{ color: "#3A4256" }}>
+          Login <br /> 
+          <br/>
+        </h1>
           <div className="form-group">
             <label htmlFor="">User Name</label>
             <input type="text" className="form-control" />

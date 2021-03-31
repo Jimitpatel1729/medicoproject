@@ -10,13 +10,13 @@ const infosData = [
   },
   {
     title: 'Visit Our Locations',
-    description: 'Brooklyn, NY 1003 USA',
+    description: 'Mumbai,India',
     icon: faMapMarker,
     background: 'dark'
   },
   {
     title: 'Call us Now',
-    description: '+15697854124',
+    description: '+99999999',
     icon: faPhone,
     background: 'primary'
   },

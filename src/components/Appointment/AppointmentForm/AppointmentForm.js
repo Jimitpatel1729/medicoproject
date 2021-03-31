@@ -21,7 +21,7 @@ const AppointmentForm = ({ modalIsOpen, closeModal, date, appointmentOn }) => {
     data.date = date;
     date.created = new Date();
 
-    fetch("https://afternoon-shelf-60296.herokuapp.com/addAppointment", {
+    fetch("https://medico20.herokuapp.com", {
       method: "POST",
       headers: { "content-type": "application/json" },
       body: JSON.stringify(data)
